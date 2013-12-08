@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+	<head>
+		<style>
+			body {
+				background-color:#003300;
+			}
+			button {
+				background-color:#000000;
+				color:#FFFFFF;
+				margin: 0 auto;
+				max-width:100%;
+				max-height:100%;
+				font-size:100px;
+			}
+		</style>
+	<meta
+  name="viewport"
+  content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+	<title>PVHSCalendar</title>
+	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+	<script type="text/javascript" charset="UTF-8">
+		function ready() {
+			window.open('http://pvrhs.com/pvtheater/jstesting', '_blank', 'location=no', 'EnableViewPortSlace=no');
+		}
+	</script>
+	</head>
+	<button id="presslog" onclick="ready()">Press here to get into the calendar</button>
+</body>
+</html>

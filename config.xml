@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.pvrhs.calendarapplication"
+        versionCode="10" 
+        version   = "1.0.1">
+<!-- versionCode is optional and Android only -->
+<name>PVHS Calendar App</name>
+<description>
+        An application that lets you view the PVHS Calendar. 
+    </description>
+	<author>
+        Hasan Intisar 
+    </author>
+    <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+    <content src="index.html"/>
+    <icon src="iconsize.png" />
+</widget>
